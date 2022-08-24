@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+    color: blueviolet;
+    background-color: aquamarine;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 30px;
+}
+
+header {
+    width: 100%;
+}
+
+.encabezado {
+    background-color: black;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+.menu-items {
+    list-style: none;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 30px;
+}
+
+.menu-items a {
+    text-decoration: none;
+    color:white;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+
+.redes-items {
+    list-style: none;
+}
+
+.redes-items a {
+    text-decoration: none;
+}
+.productosprincipales{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.productos img{
+    width: 400px;
+    height: auto;
+    border-radius: 5px;
+}
+.productos{
+    margin: 30px;
+}
+.productos p{
+font-size: 30px;
+font-weight: 700;
+}
